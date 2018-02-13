@@ -1,7 +1,6 @@
 @charset "UTF-8";
 .body {
 	background-color: #777;
-	margin: 10px;
 }
 .primary_header {
 	background-color: #ebebeb;
@@ -22,14 +21,23 @@
 	margin-top: 10px;
 	margin-left: 10px;
 }
-.left_section {
-	float: left;
+
+.col-container {
+	display: table;
+	width: 97%;
+	float: center;
 	text-align: center;
 	background-color: #ebebeb;
-	width: 60%;
 	font-family: "Source Sans Pro";
-	padding-bottom: 15px;
 	margin: 10px;
+}
+.col {
+	display: table-cell;
+	border-left: 10px solid;
+	border-color: #777;
+	margin: 10px;
+	text-align: center;
+	background-color:#ebebeb;
 }
 .article {
 	background-color: #777;
@@ -46,16 +54,6 @@
 	margin: 10px;
 }
 
-.right_aside {
-	float: right;
-	text-align: center;
-	width: 35%;
-	margin-right: 10px;
-	margin-bottom: 10px;
-	margin-top: 10px;
-	padding-bottom: 15px;
-	background-color:#ebebeb;
-}
 .footer {
 	text-align: center;
 	padding-top: 10px;
